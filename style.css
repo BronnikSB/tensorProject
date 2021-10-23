@@ -22,6 +22,7 @@ body {
 .mainBlock {
   position: absolute;
   width: 375px;
+  height: 443px;
   top: 112px;
 }
 

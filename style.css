@@ -5,7 +5,7 @@ body {
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 @font-face {
@@ -96,8 +96,8 @@ p {
 
 /* ------------------------------------------------------------- */
 .breeding {
-    height: 80px;
-    width: 375px;
+  height: 80px;
+  width: 375px;
 }
 
 .appBar {
@@ -114,65 +114,77 @@ p {
 }
 
 .appBar_top {
-    position: relative;
-    top: 22px;
-    height: 56px;
+  position: relative;
+  top: 22px;
+  height: 56px;
 }
 
 .menu_button {
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    height: 24px;
-    width: 24px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 24px;
+  width: 24px;
 }
 
 .path {
-    margin: 0;
-    position: absolute;
-    top: 6px;
-    left: 3px;
-    height: 2px;
-    width: 18px;
-    background-color: white;
+  margin: 0;
+  position: absolute;
+  top: 6px;
+  left: 3px;
+  height: 2px;
+  width: 18px;
+  background-color: white;
 }
 
 .path_two {
-    top: 11px;
+  top: 11px;
 }
 
 .path_three {
-    top: 15.5px;
-    height: 2.5px;
+  top: 15.5px;
+  height: 2.5px;
 }
 
 .navigation {
-    margin: 0;
-    position: absolute;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    top: 16px;
-    left: 73px;
-    width: 286px;
-    height: 24px;
+  margin: 0;
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  top: 16px;
+  left: 73px;
+  width: 286px;
+  height: 24px;
 }
 
 .menu {
-    position: absolute;
-    height: 140px;
-    top: 112px;
+  position: absolute;
+  height: 140px;
+  width: 375px;
+  top: 112px;
 }
 
-.theme {
-    position: absolute;
-    left: 16px;
+.box {
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: aliceblue;
 }
 
-.classmates {
-    position: relative;
-    left: 198px;
+.box_menu-theme {
+  position: absolute;
+  height: 140px;
+  width: 162px;
+  left: 16px;
+}
+
+.box_menu-classmates {
+  position: absolute;
+  height: 140px;
+  width: 162px;
+  left: 198px;
 }
 
 .text {
@@ -181,12 +193,17 @@ p {
     text-align: center;
 }
 
-.classmates_text {
+.text_menu {
+    position: relative;
+    top: 16px;
+}
+
+/* .classmates_text {
     height: 45px;
     border: 1px solid;
     border-color:  #E5E5E5;
     border-top: none;
    
-}
+} */
 
 

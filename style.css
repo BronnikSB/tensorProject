@@ -162,42 +162,47 @@ p {
 
 .menu {
   position: absolute;
-  height: 140px;
-  width: 375px;
+  height: max-content;
+  width: max-content;
   top: 112px;
 }
 
-.box {
-  border: 1px solid;
-  border-radius: 8px;
-  border-color: aliceblue;
+.text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
 }
 
-.box_menu-theme {
+.boxMenu_text {
+  position: relative;
+  top: 16px;
+  bottom: 15px;
+  text-align: center;
+}
+
+.boxMenu {
   position: absolute;
   height: 140px;
   width: 162px;
+  border: 0.5px solid rgb(245, 244, 244);
+  border-radius: 8px;
+}
+
+.boxMenu_classmates {
   left: 16px;
 }
 
-.box_menu-classmates {
-  position: absolute;
-  height: 140px;
-  width: 162px;
+.boxMenu_theme {
   left: 198px;
 }
 
-.text {
-    font-size: 12px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+.classmates_img {
+  border-radius: 8px 8px 0 0;
 }
 
-.text_menu {
-    position: relative;
-    top: 16px;
+.theme_img {
+  border-radius: 8px 8px 0 0;
 }
-
 /* .classmates_text {
     height: 45px;
     border: 1px solid;
@@ -205,5 +210,3 @@ p {
     border-top: none;
    
 } */
-
-
